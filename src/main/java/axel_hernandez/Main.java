@@ -5,8 +5,6 @@ public class Main {
         System.out.println("Iniciando Importador CSV Seguro - Axel Hernandez");
         
         Importer importer = new Importer();
-        
-        // Intentamos procesar el archivo que crearemos en la carpeta data
         importer.execute("test.csv");
     }
 }
